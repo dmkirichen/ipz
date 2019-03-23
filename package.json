@@ -4,7 +4,7 @@
   "description": "IPZ labs",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -34,6 +34,7 @@
     "gulp-livereload": "^4.0.1",
     "gulp-myth": "^2.0.0",
     "gulp-stylus": "^2.7.0",
-    "gulp-uglify": "^3.0.2"
+    "gulp-uglify": "^3.0.2",
+    "jest": "^24.5.0"
   }
 }
